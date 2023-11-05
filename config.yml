@@ -1,0 +1,21 @@
+# Change this if you want to name your final CSV differently or save it elsewhere.
+csv_file_path: 'data.csv'
+
+# Change this value to control how many unique users will be created.
+number_of_users: 6
+
+# A random number of expenses will be generated per day.
+# Change this value to control the max number of expenses per day.
+max_expenses_per_day: 10
+
+# Change these values to control the range of amount spent for each expense.
+min_user_expense: 3
+max_user_expense: 200
+
+# Change these values to control the range of monthly income for each user.
+min_user_income: 2000
+max_user_income: 3500
+
+# Change these values if you want different start and end month (1=January).
+start_month: 1
+end_month: 11

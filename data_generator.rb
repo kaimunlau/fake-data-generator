@@ -106,7 +106,8 @@ def write_to_csv(data)
     end
   end
 
-  puts "Finished writing to CSV!\n\n"
+  puts 'Finished writing to CSV!'
+  puts "Your file is: #{CSV_FILE_PATH}"
 end
 
 write_to_csv(make_data)
